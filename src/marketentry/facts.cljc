@@ -11,13 +11,7 @@
           :rep-provenance "https://www.armp.sn/"
           :corporate-number-owner-authority "APIX / DGID"
           :corporate-number-legal-basis "RCCM / NINEA"
-          :corporate-number-provenance "https://www.apix.sn/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "CIV" {:name "Côte d'Ivoire" :owner-authority "ANRMP" :legal-basis "Code des marchés publics" :national-spec "e-procurement" :provenance "https://www.anrmp.ci/"
-          :required-evidence ["RCCM record" "e-procurement registration" "RCCM extract" "Authorized-representative record"]}
-   "MAR" {:name "Morocco" :owner-authority "marchés publics" :legal-basis "Décret marchés publics" :national-spec "portail marchés publics" :provenance "https://www.marchespublics.gov.ma/"
-          :required-evidence ["ICE/RC record" "e-procurement registration" "Commercial registry extract" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.apix.sn/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
